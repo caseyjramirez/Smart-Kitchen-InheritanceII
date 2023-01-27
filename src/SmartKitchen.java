@@ -15,18 +15,6 @@ public class SmartKitchen {
         this.refrigerator = refrigerator;
     }
 
-    public CoffeeMaker getCoffeeMaker() {
-        return coffeeMaker;
-    }
-
-    public DishWasher getDishWasher() {
-        return dishWasher;
-    }
-
-    public Refrigerator getRefrigerator() {
-        return refrigerator;
-    }
-
     public void setKitchenState(boolean coffeeMakerFlag,
                                 boolean dishWasherFlag,
                                 boolean refrigeratorFlag
